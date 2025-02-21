@@ -1,0 +1,7 @@
+# ninja log v5
+1512	1676	7618196095705159	CMakeFiles/Lab_1.dir/filewatch.cpp.obj	6b92c47f658d6964
+2	1484	7618196090429196	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/Lab_1_autogen/mocs_compilation.cpp	a59af8ae02c1ed0d
+2	1484	7618196090429196	Lab_1_autogen/timestamp	a59af8ae02c1ed0d
+9	698	7618196096090416	build.ninja	5645976ca9c35ea7
+2	1484	7618196090429196	Lab_1_autogen/mocs_compilation.cpp	a59af8ae02c1ed0d
+2	1484	7618196090429196	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/Lab_1_autogen/timestamp	a59af8ae02c1ed0d
