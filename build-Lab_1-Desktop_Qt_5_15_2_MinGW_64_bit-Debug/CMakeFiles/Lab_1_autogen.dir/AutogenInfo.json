@@ -81,6 +81,12 @@
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
 			null
+		],
+		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.h",
+			"MU",
+			"EWIEGA46WW/moc_notificationwidget.cpp",
+			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
@@ -145,6 +151,11 @@
 		],
 		[
 			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.cpp",
 			"MU",
 			null
 		]

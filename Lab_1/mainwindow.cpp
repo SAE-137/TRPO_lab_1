@@ -16,5 +16,5 @@ MainWindow::~MainWindow()
 void MainWindow::changed(const QString &flName)
 {
     QLabel label;
-     ui->label->setText("Changed " + flName);
+
 }

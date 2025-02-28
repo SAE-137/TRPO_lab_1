@@ -321,6 +321,8 @@ Lab_1_autogen/timestamp: \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/main.cpp \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.cpp \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.h \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.cpp \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.h \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
   CMakeFiles/3.24.2/CMakeRCCompiler.cmake \

@@ -1,31 +1,36 @@
 #include "filewatch.h"
+#include <QDebug>
 
-FileWatch::FileWatch(const QString path)
+
+FileWatch::FileWatch(const QString &path, QObject *parent)
+    : QObject(parent), m_fsWatcher(new QFileSystemWatcher(this))
 {
 
-    fsWatcher = new QFileSystemWatcher(this);
-
-    fsWatcher->addPath("C:\\Users\\admin\\Desktop\\Algorithms\\TRPO_lab_1\\folder for tracking changings");
-
-    connect(fsWatcher, SIGNAL(fileChanged(path)), this, SLOT(changed(path)));
+    m_fsWatcher->addPath(path);
 
 
-
-
+    connect(m_fsWatcher, &QFileSystemWatcher::fileChanged, this, &FileWatch::onFileChanged);
 }
 
 
 FileWatch::~FileWatch()
 {
-
+    delete m_fsWatcher;
 }
+
 
 void FileWatch::addPath(const QString &path)
 {
-
+    if (!m_fsWatcher->files().contains(path)) {
+        m_fsWatcher->addPath(path);
+    }
 }
 
-void FileWatch::fileChanged(const QString &path)
-{
 
+void FileWatch::onFileChanged(const QString &path)
+{
+    qDebug() << "File changed:" << path;
+
+
+    emit fileChangedSignal(path);
 }

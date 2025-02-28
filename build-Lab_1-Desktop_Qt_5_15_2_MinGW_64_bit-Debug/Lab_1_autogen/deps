@@ -321,6 +321,8 @@ Lab_1_autogen/timestamp: \
 	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/main.cpp \
 	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.cpp \
 	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.h \
+	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.cpp \
+	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.h \
 	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/.qtc/package-manager/auto-setup.cmake \
 	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
 	C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeRCCompiler.cmake \

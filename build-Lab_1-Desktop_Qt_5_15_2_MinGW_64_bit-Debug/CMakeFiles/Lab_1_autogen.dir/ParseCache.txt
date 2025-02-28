@@ -483,3 +483,5 @@ C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.cpp
  uic:./ui_mainwindow.h
 C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/main.cpp
 C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.cpp
+C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.h
+C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.cpp
