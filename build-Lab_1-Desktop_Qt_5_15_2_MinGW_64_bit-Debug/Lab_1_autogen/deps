@@ -2,11 +2,13 @@ Lab_1_autogen/timestamp: \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
+	C:/Qt/5.15.2/mingw81_64/include/QtCore/QTimer \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
+	C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasictimer.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
@@ -55,6 +57,7 @@ Lab_1_autogen/timestamp: \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+	C:/Qt/5.15.2/mingw81_64/include/QtCore/qtimer.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
@@ -84,6 +87,7 @@ Lab_1_autogen/timestamp: \
 	C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
+	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
 	C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \

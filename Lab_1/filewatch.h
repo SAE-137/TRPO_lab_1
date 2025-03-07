@@ -4,15 +4,14 @@
 #include <QFileSystemWatcher>
 #include <QObject>
 #include <QString>
+#include "notificationwidget.h"
 
 class FileWatch : public QObject
 {
     Q_OBJECT
 
 public:
-    explicit FileWatch(const QString &path, QObject *parent = nullptr);
-    ~FileWatch();
-
+    FileWatch(NotificationWidget *notifier, QObject *parent = nullptr);  // Добавили notifier
     void addPath(const QString &path);
 
 signals:
@@ -23,6 +22,7 @@ private slots:
 
 private:
     QFileSystemWatcher *m_fsWatcher;
+    NotificationWidget *m_notifier;
 };
 
 #endif // FILEWATCH_H

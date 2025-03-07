@@ -1,25 +1,18 @@
 #ifndef NOTIFICATIONWIDGET_H
 #define NOTIFICATIONWIDGET_H
 
-#include<QObject>
-#include<QTimer>
-#include<QLabel>
-#include<QString>
+#include <QWidget>
+#include <QTimer>
+#include <QLabel>
+#include <QString>
 
 class NotificationWidget : public QWidget
 {
-
-    Q_OBJECT;
+    Q_OBJECT
 
 public:
-
-
-    explicit NotificationWidget(QWidget* parrent = nullptr);
+    explicit NotificationWidget(QWidget* parent = nullptr);
     void showNotification(const QString &message);
-
-
-signals:
-
 
 private:
     QTimer* m_timer;
