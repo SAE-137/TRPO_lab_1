@@ -38,19 +38,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 43,
+				"line" : 46,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 59,
+				"line" : 62,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 49,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
@@ -202,18 +202,19 @@
 				1,
 				2,
 				5,
-				8
+				8,
+				10
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"id" : "Lab_1_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
-		},
-		{
 			"backtrace" : 0,
 			"id" : "Lab_1_autogen::@6890427a1f51a3e7e1df"
+		},
+		{
+			"id" : "Lab_1_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "Lab_1::@6890427a1f51a3e7e1df",
@@ -287,7 +288,8 @@
 				1,
 				2,
 				5,
-				8
+				8,
+				10
 			]
 		},
 		{
@@ -297,7 +299,8 @@
 				3,
 				6,
 				7,
-				9
+				9,
+				11
 			]
 		},
 		{
@@ -305,14 +308,14 @@
 			"sourceIndexes" : 
 			[
 				4,
-				10
+				12
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11
+				13
 			]
 		}
 	],
@@ -367,6 +370,17 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "notificationwidget.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "fileinformation.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "fileinformation.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{

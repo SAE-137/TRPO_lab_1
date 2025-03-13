@@ -71,6 +71,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.h",
+			"MU",
+			"EWIEGA46WW/moc_fileinformation.cpp",
+			null
+		],
+		[
 			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.h",
 			"MU",
 			"EWIEGA46WW/moc_filewatch.cpp",
@@ -139,6 +145,11 @@
 	"SETTINGS_FILE" : "C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/CMakeFiles/Lab_1_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.cpp",
 			"MU",

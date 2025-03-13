@@ -320,6 +320,8 @@ Lab_1_autogen/timestamp: \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/CMakeLists.txt \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.cpp \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.h \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.cpp \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.h \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/main.cpp \

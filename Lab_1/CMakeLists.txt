@@ -21,6 +21,9 @@ set(PROJECT_SOURCES
         FileWatch.h
         notificationwidget.h
         notificationwidget.cpp
+        FileInformation.h
+        FileInformation.cpp
+
 )
 
 if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
