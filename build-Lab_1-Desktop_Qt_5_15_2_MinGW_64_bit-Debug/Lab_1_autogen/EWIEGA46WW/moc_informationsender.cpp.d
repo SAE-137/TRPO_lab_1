@@ -1,5 +1,7 @@
 C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/Lab_1_autogen/EWIEGA46WW/moc_informationsender.cpp: C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/informationsender.h \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/Lab_1_autogen/moc_predefs.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \

@@ -97,14 +97,14 @@ void informationSender::qt_static_metacall(QObject *_o, QMetaObject::Call _c, in
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
         {
-            using _t = void (informationSender::*)(const QString , size_t );
+            using _t = void (informationSender::*)(const QString & , size_t );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&informationSender::sizeChangedSignal)) {
                 *result = 0;
                 return;
             }
         }
         {
-            using _t = void (informationSender::*)(const QString , bool );
+            using _t = void (informationSender::*)(const QString & , bool );
             if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&informationSender::existChangedSignal)) {
                 *result = 1;
                 return;
@@ -154,14 +154,14 @@ int informationSender::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 }
 
 // SIGNAL 0
-void informationSender::sizeChangedSignal(const QString _t1, size_t _t2)
+void informationSender::sizeChangedSignal(const QString & _t1, size_t _t2)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
-void informationSender::existChangedSignal(const QString _t1, bool _t2)
+void informationSender::existChangedSignal(const QString & _t1, bool _t2)
 {
     void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t1))), const_cast<void*>(reinterpret_cast<const void*>(std::addressof(_t2))) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);

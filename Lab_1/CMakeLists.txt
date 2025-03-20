@@ -17,16 +17,17 @@ set(PROJECT_SOURCES
         mainwindow.cpp
         mainwindow.h
         mainwindow.ui
-        FileWatch.cpp
-        FileWatch.h
-        notificationwidget.h
-        notificationwidget.cpp
+
         FileInformation.h
         FileInformation.cpp
         informationSender.h
         informationSender.cpp
         consoleinteraction.cpp
         consoleinteraction.h
+        fileobserver.cpp
+        fileobserver.h
+        filemanager.cpp
+        filemanager.h
 
 
 )

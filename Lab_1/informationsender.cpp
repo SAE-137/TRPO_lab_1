@@ -1,14 +1,17 @@
+#include<QDebug>
 #include "informationsender.h"
 
 
 
 
-void informationSender::sizeChanged(const QString name, size_t size)
+void informationSender::sizeChanged(const QString& name, size_t size)
 {
+
     emit sizeChangedSignal(name, size);
 }
 
-void informationSender::existChanged(const QString name, bool exist)
+void informationSender::existChanged(const QString& name, bool exist)
 {
+
     emit existChangedSignal(name, exist);
 }

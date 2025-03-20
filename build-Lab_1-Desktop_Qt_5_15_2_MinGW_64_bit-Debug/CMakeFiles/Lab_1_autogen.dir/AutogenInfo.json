@@ -83,9 +83,15 @@
 			null
 		],
 		[
-			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.h",
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filemanager.h",
 			"MU",
-			"EWIEGA46WW/moc_filewatch.cpp",
+			"EWIEGA46WW/moc_filemanager.cpp",
+			null
+		],
+		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileobserver.h",
+			"MU",
+			"EWIEGA46WW/moc_fileobserver.cpp",
 			null
 		],
 		[
@@ -98,12 +104,6 @@
 			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
-			null
-		],
-		[
-			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.h",
-			"MU",
-			"EWIEGA46WW/moc_notificationwidget.cpp",
 			null
 		]
 	],
@@ -168,7 +168,12 @@
 			null
 		],
 		[
-			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.cpp",
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filemanager.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileobserver.cpp",
 			"MU",
 			null
 		],
@@ -184,11 +189,6 @@
 		],
 		[
 			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.cpp",
-			"MU",
-			null
-		],
-		[
-			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.cpp",
 			"MU",
 			null
 		]

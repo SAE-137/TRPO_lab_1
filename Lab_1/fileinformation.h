@@ -1,28 +1,26 @@
 #ifndef FILEINFORMATION_H
 #define FILEINFORMATION_H
 
-#include<qstring.h>
+#include <QString>
 
-class FileInformation
-{
+class FileInformation {
 public:
-    FileInformation();//
-    FileInformation(const QString name);//
-    ~FileInformation() = default;//
+    FileInformation();
+    explicit FileInformation(const QString& name);
 
-    void setSize(size_t size);//
-    void includeName(const QString name);//
-    void setExsist(bool exist);//
+    size_t getSize() const;
+    void setSize(size_t size);
 
-    size_t getSize() const;//
-    QString getName() const;//
+    QString getName() const;
+    void setName(const QString& name);
 
-    bool isExist() const; //
+    bool isExist() const;
+    void setExist(bool exist);
 
 private:
-    size_t m_size = 0;
-    QString m_name = nullptr;
-    bool m_exist = false;
+    size_t m_size;
+    QString m_name;
+    bool m_exist;
 };
 
 #endif // FILEINFORMATION_H

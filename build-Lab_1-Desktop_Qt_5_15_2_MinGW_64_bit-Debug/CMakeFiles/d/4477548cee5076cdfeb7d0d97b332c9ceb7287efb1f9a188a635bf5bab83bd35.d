@@ -1,14 +1,14 @@
 Lab_1_autogen/timestamp: \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QFileInfo \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QMap \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QTimer \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasictimer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
@@ -17,6 +17,9 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfile.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
@@ -29,6 +32,7 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
@@ -57,7 +61,6 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtimer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
@@ -87,7 +90,6 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
@@ -324,15 +326,15 @@ Lab_1_autogen/timestamp: \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/consoleinteraction.h \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.cpp \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.h \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.cpp \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.h \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filemanager.cpp \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filemanager.h \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileobserver.cpp \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileobserver.h \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/informationsender.cpp \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/informationsender.h \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/main.cpp \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.cpp \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.h \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.cpp \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.h \
   .qtc/package-manager/auto-setup.cmake \
   CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
   CMakeFiles/3.24.2/CMakeRCCompiler.cmake \

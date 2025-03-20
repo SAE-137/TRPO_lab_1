@@ -1,21 +1,21 @@
 #include "consoleinteraction.h"
 #include "informationsender.h"
-#include "qdebug.h"
+#include <QDebug>
 
-consoleInteraction::consoleInteraction()
-{
-    informationSender* sender = new informationSender;
+consoleInteraction::consoleInteraction(informationSender* sender, QObject* parent) : QObject(parent) {
 
-    informationSender::connect(sender, &informationSender::existChangedSignal, this, &consoleInteraction::sizeChange);
-    informationSender::connect(sender, &informationSender::sizeChangedSignal, this, &consoleInteraction::existChange);
+
+
+    connect(sender, &informationSender::sizeChangedSignal, this, &consoleInteraction::sizeChange);
+    connect(sender, &informationSender::existChangedSignal, this, &consoleInteraction::existChange);
 }
 
-void consoleInteraction::sizeChange(const QString name, size_t size) const
-{
+void consoleInteraction::sizeChange(const QString& name, size_t size) const {
     qDebug() << "File : " << name << " has been changed size to " << size;
 }
 
-void consoleInteraction::existChange(const QString name, bool exist) const
-{
-    qDebug() << "File : " << name << " does not exist";
+void consoleInteraction::existChange(const QString& name, bool exist) const {
+    if (!exist)
+        qDebug() << "File : " << name << " does not exist";
+
 }
