@@ -1,14 +1,10 @@
-Lab_1_autogen/timestamp: \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/QTimer \
+C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/Lab_1_autogen/EWIEGA46WW/moc_informationsender.cpp: C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/informationsender.h \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/Lab_1_autogen/moc_predefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasictimer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
@@ -16,20 +12,14 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qconfig.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobalstatic.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qhash.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qhashfunctions.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qiodevice.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qiterator.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnumeric.h \
@@ -38,16 +28,10 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qobjectdefs_impl.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qpair.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qpoint.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qprocessordetection.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qrect.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qrefcount.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qregexp.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qscopedpointer.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qshareddata.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsharedpointer_impl.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qsize.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstring.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qstringlist.h \
@@ -57,108 +41,20 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtimer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfont.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontinfo.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qfontmetrics.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qicon.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qimage.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qkeysequence.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qmatrix.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpaintdevice.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpalette.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixelformat.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpixmap.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qpolygon.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qregion.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgb.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtGui/qwindowdefs_win.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QLabel \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QMainWindow \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/QWidget \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qframe.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qmainwindow.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qsizepolicy.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgets-config.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qtwidgetsglobal.h \
-  C:/Qt/5.15.2/mingw81_64/include/QtWidgets/qwidget.h \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5Config.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ConfigVersion.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5/Qt5ModuleLocation.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgIconPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QSvgPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QWindowsIntegrationPlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Gui/Qt5Gui_QXdgDesktopPortalThemePlugin.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake \
-  C:/Qt/5.15.2/mingw81_64/lib/cmake/Qt5Widgets/Qt5Widgets_QWindowsVistaStylePlugin.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXInformation.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeGenericSystem.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeInitializeConfigs.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeParseArguments.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeRCInformation.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInformation.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeSystemSpecificInitialize.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-CXX.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-CXX.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-windres.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows.cmake \
-  C:/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/WindowsPaths.cmake \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/atomic \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/auto_ptr.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward/binders.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/alloc_traits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocated_ptr.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/allocator.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_base.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/atomic_lockfree_defines.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_ios.tcc \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/basic_string.h \
@@ -196,9 +92,6 @@ Lab_1_autogen/timestamp: \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/ptr_traits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/range_access.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/refwrap.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_atomic.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/shared_ptr_base.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_abs.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/std_function.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
@@ -215,7 +108,6 @@ Lab_1_autogen/timestamp: \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multimap.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_raw_storage_iter.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
@@ -227,8 +119,6 @@ Lab_1_autogen/timestamp: \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/string_view.tcc \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stringfwd.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unique_ptr.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cctype \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/clocale \
@@ -243,7 +133,6 @@ Lab_1_autogen/timestamp: \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/alloc_traits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/atomicity.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/concurrence.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/new_allocator.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/numeric_traits.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/string_conversions.h \
@@ -257,7 +146,6 @@ Lab_1_autogen/timestamp: \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/list \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/map \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/memory \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/new \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/optional \
@@ -285,7 +173,6 @@ Lab_1_autogen/timestamp: \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdarg.h \
   C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stddef.h \
-  C:/Qt/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/stdint.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_mac.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/_mingw_off_t.h \
@@ -318,25 +205,4 @@ Lab_1_autogen/timestamp: \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/CMakeLists.txt \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/consoleinteraction.cpp \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/consoleinteraction.h \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.cpp \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.h \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.cpp \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.h \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/informationsender.cpp \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/informationsender.h \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/main.cpp \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.cpp \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.h \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.cpp \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/notificationwidget.h \
-  .qtc/package-manager/auto-setup.cmake \
-  CMakeFiles/3.24.2/CMakeCXXCompiler.cmake \
-  CMakeFiles/3.24.2/CMakeRCCompiler.cmake \
-  CMakeFiles/3.24.2/CMakeSystem.cmake \
-  Lab_1_autogen/moc_predefs.h \
-  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.ui \
-  C:/Qt/Tools/CMake_64/bin/cmake.exe
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h

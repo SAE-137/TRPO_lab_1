@@ -71,6 +71,12 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/consoleinteraction.h",
+			"MU",
+			"EWIEGA46WW/moc_consoleinteraction.cpp",
+			null
+		],
+		[
 			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.h",
 			"MU",
 			"EWIEGA46WW/moc_fileinformation.cpp",
@@ -80,6 +86,12 @@
 			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.h",
 			"MU",
 			"EWIEGA46WW/moc_filewatch.cpp",
+			null
+		],
+		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/informationsender.h",
+			"MU",
+			"EWIEGA46WW/moc_informationsender.cpp",
 			null
 		],
 		[
@@ -146,12 +158,22 @@
 	"SOURCES" : 
 	[
 		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/consoleinteraction.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.cpp",
 			"MU",
 			null
 		],
 		[
 			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filewatch.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/informationsender.cpp",
 			"MU",
 			null
 		],

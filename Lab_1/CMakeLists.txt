@@ -23,6 +23,11 @@ set(PROJECT_SOURCES
         notificationwidget.cpp
         FileInformation.h
         FileInformation.cpp
+        informationSender.h
+        informationSender.cpp
+        consoleinteraction.cpp
+        consoleinteraction.h
+
 
 )
 
