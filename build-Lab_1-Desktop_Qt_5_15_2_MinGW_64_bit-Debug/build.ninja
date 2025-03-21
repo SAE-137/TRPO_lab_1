@@ -224,7 +224,7 @@ build Lab_1_autogen/timestamp Lab_1_autogen/mocs_compilation.cpp | ${cmake_ninja
 #############################################
 # Phony custom command for CMakeFiles\Lab_1_autogen_timestamp_deps
 
-build CMakeFiles/Lab_1_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Lab_1_autogen_timestamp_deps: phony C$:/Qt/5.15.2/mingw81_64/bin/uic.exe C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a C$:/Qt/5.15.2/mingw81_64/bin/moc.exe
+build CMakeFiles/Lab_1_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/Lab_1_autogen_timestamp_deps: phony C$:/Qt/5.15.2/mingw81_64/bin/moc.exe C$:/Qt/5.15.2/mingw81_64/bin/uic.exe C$:/Qt/5.15.2/mingw81_64/lib/libQt5Widgets.a
 
 
 #############################################
