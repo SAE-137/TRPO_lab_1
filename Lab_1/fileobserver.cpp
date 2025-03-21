@@ -19,6 +19,7 @@ void fileObserver::addFile(const QString& filePath) {
 
         files.insert(filePath, FileInformation(filePath));
         watcher.addPath(filePath);
+        qDebug() << filePath << "does not exist";
         return;
     }
 
