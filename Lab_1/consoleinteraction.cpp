@@ -16,6 +16,12 @@ void consoleInteraction::sizeChange(const QString& name, size_t size) const {
 
 void consoleInteraction::existChange(const QString& name, bool exist) const {
     if (!exist)
-        qDebug() << "File : " << name << " does not exist";
+    {
+         qDebug() << "File : " << name << " does not exist";
+    }
+    else{
+         qDebug() << "File : " << name << " does exist";
+    }
+
 
 }

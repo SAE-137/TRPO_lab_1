@@ -1,10 +1,18 @@
 C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/Lab_1_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/mainwindow.h \
   C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW_64_bit-Debug/Lab_1_autogen/moc_predefs.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QFileInfo \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QFileSystemWatcher \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QMap \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QTimer \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasictimer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
@@ -13,6 +21,10 @@ C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainerfwd.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qcontainertools_impl.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qdatastream.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfile.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfiledevice.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfileinfo.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qfilesystemwatcher.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qflags.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qgenericatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qglobal.h \
@@ -24,6 +36,7 @@ C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qline.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlist.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qlogging.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qmap.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmargins.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qmetatype.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qnamespace.h \
@@ -52,10 +65,13 @@ C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtimer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/QStandardItemModel \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \
@@ -74,6 +90,7 @@ C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qregion.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgb.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h \
@@ -261,4 +278,9 @@ C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/build-Lab_1-Desktop_Qt_5_15_2_MinGW
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/sys/types.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Qt/Tools/mingw810_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/consoleinteraction.h \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileinformation.h \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/filemanager.h \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/fileobserver.h \
+  C:/Users/admin/Desktop/Algorithms/TRPO_lab_1/Lab_1/informationsender.h

@@ -4,11 +4,14 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QMap \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QObject \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/QString \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/QTimer \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qabstractitemmodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qalgorithms.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qarraydata.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qatomic_cxx11.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasicatomic.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qbasictimer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qbytearraylist.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qchar.h \
@@ -61,10 +64,13 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsysinfo.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qsystemdetection.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtcore-config.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qtimer.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qtypeinfo.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtCore/qvariant.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvarlengtharray.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qvector.h \
   C:/Qt/5.15.2/mingw81_64/include/QtCore/qversiontagging.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/QStandardItemModel \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qbrush.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qcolor.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qcursor.h \
@@ -83,6 +89,7 @@ Lab_1_autogen/timestamp: \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qregion.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgb.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qrgba64.h \
+  C:/Qt/5.15.2/mingw81_64/include/QtGui/qstandarditemmodel.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtgui-config.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtguiglobal.h \
   C:/Qt/5.15.2/mingw81_64/include/QtGui/qtransform.h \
