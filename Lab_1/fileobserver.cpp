@@ -1,57 +1,84 @@
-#include <QDebug>
-#include <QFileInfo>
 #include "fileobserver.h"
-#include "fileinformation.h"
+#include <QTimer>
+#include <QDebug>
+#include<QTimer>
 
 fileObserver::fileObserver(informationSender* senderPtr, QObject *parent)
-    : QObject(parent), sender(senderPtr) {
+    : QObject(parent), sender(senderPtr), checkTimer(new QTimer(this))
+{
     if (!sender) {
         qDebug() << "ERROR: sender = nullptr!";
     }
+
     connect(&watcher, &QFileSystemWatcher::fileChanged, this, &fileObserver::onFileChanged);
+    connect(checkTimer, &QTimer::timeout, this, &fileObserver::checkMissingFiles);
+    checkTimer->start(1000);
 }
 
-void fileObserver::addFile(const QString& filePath) {
-
+void fileObserver::addFile(const QString& filePath)
+{
     QFileInfo fileInfo(filePath);
+    FileInformation fileData(filePath);
 
-    if (!fileInfo.exists()) {
-
-        files.insert(filePath, FileInformation(filePath));
+    if (fileInfo.exists()) {
+        fileData.setExist(true);
+        fileData.setSize(fileInfo.size());
         watcher.addPath(filePath);
-        qDebug() << filePath << "does not exist";
-        return;
+        if (sender) sender->existChanged(filePath, true);
+    } else {
+        fileData.setExist(false);
+        if (sender) sender->existChanged(filePath, false);
     }
 
-
-    FileInformation fileData(filePath);
-    fileData.setExist(true);
-    fileData.setSize(fileInfo.size());
-
     files.insert(filePath, fileData);
-    watcher.addPath(filePath);
 }
 
-void fileObserver::onFileChanged(const QString& filePath) {
+void fileObserver::onFileChanged(const QString& filePath)
+{
     if (!files.contains(filePath)) return;
 
     QFileInfo fileInfo(filePath);
+    bool currentlyExists = fileInfo.exists();
 
 
-    if (!fileInfo.exists()) {
-        if (files[filePath].isExist()) {
+    if (files[filePath].isExist() != currentlyExists) {
+        files[filePath].setExist(currentlyExists);
 
-                files[filePath].setExist(false);
+        if (currentlyExists) {
+            watcher.addPath(filePath);
+            files[filePath].setSize(fileInfo.size());
+            if (sender) {
+                sender->existChanged(filePath, true);
+                sender->sizeChanged(filePath, fileInfo.size());
+            }
+        } else {
+            watcher.removePath(filePath);
             if (sender) sender->existChanged(filePath, false);
         }
-        return;
     }
 
+    else if (currentlyExists && files[filePath].getSize() != fileInfo.size()) {
+        files[filePath].setSize(fileInfo.size());
+        if (sender) sender->sizeChanged(filePath, fileInfo.size());
+    }
+}
 
-    size_t newSize = fileInfo.size();
-    if (files[filePath].getSize() != newSize) {
-        files[filePath].setSize(newSize);
+void fileObserver::checkMissingFiles()
+{
+    for (auto it = files.begin(); it != files.end(); ++it) {
+        const QString& path = it.key();
+        if (!it.value().isExist()) {
+            QFileInfo fileInfo(path);
+            if (fileInfo.exists()) {
 
-        if (sender) sender->sizeChanged(filePath, newSize);
+                watcher.addPath(path);
+                it.value().setExist(true);
+                it.value().setSize(fileInfo.size());
+                if (sender) {
+                    sender->existChanged(path, true);
+                    sender->sizeChanged(path, fileInfo.size());
+                }
+            }
+        }
     }
 }

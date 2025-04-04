@@ -1,6 +1,6 @@
 #ifndef FILEOBSERVER_H
 #define FILEOBSERVER_H
-
+#include<QTimer>
 #include <QObject>
 #include <QFileSystemWatcher>
 #include <QMap>
@@ -20,8 +20,13 @@ public:
 
     void addFile(const QString& filePath);
 
+
 private slots:
     void onFileChanged(const QString& filePath);
+
+private:
+    QTimer* checkTimer;
+    void checkMissingFiles();
 
 };
 

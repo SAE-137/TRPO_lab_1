@@ -1,6 +1,7 @@
 #include "consoleinteraction.h"
 #include "informationsender.h"
 #include <QDebug>
+#include <iostream>
 
 consoleInteraction::consoleInteraction(informationSender* sender, QObject* parent) : QObject(parent) {
 
@@ -12,10 +13,17 @@ consoleInteraction::consoleInteraction(informationSender* sender, QObject* paren
 
 void consoleInteraction::sizeChange(const QString& name, size_t size) const {
     qDebug() << "File : " << name << " has been changed size to " << size;
+    std::cout << "Вывод через std::cout" << std::endl;
 }
 
 void consoleInteraction::existChange(const QString& name, bool exist) const {
     if (!exist)
-        qDebug() << "File : " << name << " does not exist";
+    {
+         qDebug() << "File : " << name << " does not exist";
+    }
+    else{
+         qDebug() << "File : " << name << " does exist";
+    }
+
 
 }

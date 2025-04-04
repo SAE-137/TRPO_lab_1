@@ -12,6 +12,8 @@ class fileManager : public QObject {
     consoleInteraction console;
 
 public:
+
+
     explicit fileManager(informationSender* sender, QObject *parent = nullptr)
         : QObject(parent), observer(sender), console(sender) {}
 
