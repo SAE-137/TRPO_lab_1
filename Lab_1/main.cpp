@@ -7,14 +7,15 @@ int main(int argc, char *argv[]) {
     QApplication app(argc, argv);
 
 
-    //informationSender sender;
-    //fileManager manager(&sender);
+    informationSender sender;
+    fileManager manager(&sender);
 
-    //manager.addFile("C:\\Users\\admin\\Desktop\\Algorithms\\TRPO_lab_1\\folder for tracking changings\\1.txt");
-    //manager.addFile("C:\\Users\\admin\\Desktop\\Algorithms\\TRPO_lab_1\\folder for tracking changings\\2.txt");
+    manager.addFile("C:\\Users\\admin\\Desktop\\Algorithms\\TRPO_lab_1\\folder for tracking changings\\1.txt");
+    manager.addFile("C:\\Users\\admin\\Desktop\\Algorithms\\TRPO_lab_1\\folder for tracking changings\\5.txt");
 
-    MainWindow a;
 
-    a.show();
+
+    //MainWindow a;
+    //a.show();
     return app.exec();
 }
