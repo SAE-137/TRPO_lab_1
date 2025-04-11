@@ -13,9 +13,7 @@ class fileManager : public QObject {
 
 public:
 
-
-    explicit fileManager(informationSender* sender, QObject *parent = nullptr)
-        : QObject(parent), observer(sender), console(sender) {}
+    explicit fileManager(QObject *parent = nullptr);
 
     void addFile(const QString& filePath);
 };

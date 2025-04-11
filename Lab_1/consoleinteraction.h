@@ -1,20 +1,24 @@
 #ifndef CONSOLEINTERACTION_H
 #define CONSOLEINTERACTION_H
 
-#include "informationsender.h"
+
 #include <QObject>
 #include <QString>
 
 
 
-class consoleInteraction : public QObject {
+class consoleInteraction : public QObject
+{
     Q_OBJECT
+
 public:
-    explicit consoleInteraction(informationSender *sender, QObject* parent = nullptr);
+    explicit consoleInteraction(QObject* parent = nullptr) {}
 
 public slots:
-    void sizeChange(const QString& name, size_t size) const;
-    void existChange(const QString& name, bool exist) const;
+    void fileChanged(const QString& name) const;
+    void fileIsExistAndNotEmpty(const QString& name) const;
+    void fileIsNotExist(const QString& name) const;
+
 };
 
 #endif // CONSOLEINTERACTION_H

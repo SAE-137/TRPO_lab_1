@@ -1,84 +1,65 @@
-#include "fileobserver.h"
+
 #include <QTimer>
 #include <QDebug>
 #include<QTimer>
 
-fileObserver::fileObserver(informationSender* senderPtr, QObject *parent)
-    : QObject(parent), sender(senderPtr), checkTimer(new QTimer(this))
-{
-    if (!sender) {
-        qDebug() << "ERROR: sender = nullptr!";
-    }
+#include "fileobserver.h"
 
-    connect(&watcher, &QFileSystemWatcher::fileChanged, this, &fileObserver::onFileChanged);
-    connect(checkTimer, &QTimer::timeout, this, &fileObserver::checkMissingFiles);
-    checkTimer->start(1000);
+fileObserver::fileObserver(QObject *parent)
+    : QObject(parent)
+{
+    m_checkTimer.setInterval(1000);
+    connect(&m_checkTimer, &QTimer::timeout, this, &fileObserver::checkFiles);
+    m_checkTimer.start();
 }
 
 void fileObserver::addFile(const QString& filePath)
 {
-    QFileInfo fileInfo(filePath);
-    FileInformation fileData(filePath);
+    if (!m_trackedFiles.contains(filePath)) {
+        FileInformation fileInfo(filePath);
+        fileInfo.refresh();
 
-    if (fileInfo.exists()) {
-        fileData.setExist(true);
-        fileData.setSize(fileInfo.size());
-        watcher.addPath(filePath);
-        if (sender) sender->existChanged(filePath, true);
-    } else {
-        fileData.setExist(false);
-        if (sender) sender->existChanged(filePath, false);
-    }
+        m_trackedFiles.insert(filePath, fileInfo);
+        m_lastKnownSizes[filePath] = fileInfo.getSize();
 
-    files.insert(filePath, fileData);
-}
-
-void fileObserver::onFileChanged(const QString& filePath)
-{
-    if (!files.contains(filePath)) return;
-
-    QFileInfo fileInfo(filePath);
-    bool currentlyExists = fileInfo.exists();
-
-
-    if (files[filePath].isExist() != currentlyExists) {
-        files[filePath].setExist(currentlyExists);
-
-        if (currentlyExists) {
-            watcher.addPath(filePath);
-            files[filePath].setSize(fileInfo.size());
-            if (sender) {
-                sender->existChanged(filePath, true);
-                sender->sizeChanged(filePath, fileInfo.size());
-            }
-        } else {
-            watcher.removePath(filePath);
-            if (sender) sender->existChanged(filePath, false);
-        }
-    }
-
-    else if (currentlyExists && files[filePath].getSize() != fileInfo.size()) {
-        files[filePath].setSize(fileInfo.size());
-        if (sender) sender->sizeChanged(filePath, fileInfo.size());
-    }
-}
-
-void fileObserver::checkMissingFiles()
-{
-    for (auto it = files.begin(); it != files.end(); ++it) {
-        const QString& path = it.key();
-        if (!it.value().isExist()) {
-            QFileInfo fileInfo(path);
-            if (fileInfo.exists()) {
-
-                watcher.addPath(path);
-                it.value().setExist(true);
-                it.value().setSize(fileInfo.size());
-                if (sender) {
-                    sender->existChanged(path, true);
-                    sender->sizeChanged(path, fileInfo.size());
-                }
-            }
+        if (fileInfo.isExist() && !fileInfo.isEmpty()) {
+            emit fileAppeared(filePath);
         }
     }
 }
+
+void fileObserver::checkFiles()
+{
+    for (auto it = m_trackedFiles.begin(); it != m_trackedFiles.end(); ++it) {
+        const QString& filePath = it.key();
+        FileInformation& fileInfo = it.value();
+
+
+        bool existedBefore = fileInfo.isExist();
+        qint64 prevSize = m_lastKnownSizes[filePath];
+
+
+        fileInfo.refresh();
+
+        bool existsNow = fileInfo.isExist();
+        qint64 currentSize = fileInfo.getSize();
+
+
+        if (!existedBefore && existsNow) {
+            emit fileAppeared(filePath);
+            m_lastKnownSizes[filePath] = currentSize;
+        }
+        else if (existedBefore && !existsNow) {
+            emit fileDisappeared(filePath);
+            m_lastKnownSizes[filePath] = -1;
+        }
+        else if (existsNow && (prevSize != currentSize)) {
+            emit fileSizeChanged(filePath);
+            m_lastKnownSizes[filePath] = currentSize;
+        }
+    }
+}
+
+
+
+
