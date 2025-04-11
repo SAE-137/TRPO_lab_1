@@ -6,27 +6,26 @@
 #include <QMap>
 #include <QFileInfo>
 #include "fileinformation.h"
-#include "informationsender.h"
+
 
 class fileObserver : public QObject {
     Q_OBJECT
 
-    QFileSystemWatcher watcher;
-    QMap<QString, FileInformation> files;
-    informationSender* sender;
-
 public:
-    explicit fileObserver(informationSender* sender, QObject *parent = nullptr);
+    explicit fileObserver(QObject *parent = nullptr);
 
     void addFile(const QString& filePath);
-
-
-private slots:
-    void onFileChanged(const QString& filePath);
+    void checkFiles();
 
 private:
-    QTimer* checkTimer;
-    void checkMissingFiles();
+    QTimer m_checkTimer;
+    QHash<QString, FileInformation> m_trackedFiles;
+    QHash<QString, qint64> m_lastKnownSizes;
+
+signals:
+    void fileAppeared(const QString& filePath);
+    void fileDisappeared(const QString& filePath);
+    void fileSizeChanged(const QString& filePath);
 
 };
 
